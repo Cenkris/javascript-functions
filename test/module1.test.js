@@ -1,4 +1,7 @@
 const esprima = require("esprima");
+const assert = require("assert");
+const fs = require('fs');
+const source = fs.readFileSync("E:/Programming/WebDev/JavaScript/Projects/javascript-functions/javascript-functions/js/gameoflife.js", "UTF-8");
 const gameoflife = require("../js/gameoflife.js");
 
 describe("Conway's Game of Life", () => {
